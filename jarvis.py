@@ -3,7 +3,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
 logging.basicConfig(level=logging.INFO)
 
-TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
+TOKEN = '6905688737:AAExzZjbuguMrKCAADyzyW1IYoTZJLV3A2Y'
 
 def start(update, context):
     context.bot.send_message(chat_id=update.effective_chat.id, text='Hello I\'m Jarvis Bot')
